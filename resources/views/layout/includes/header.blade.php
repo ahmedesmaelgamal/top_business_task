@@ -15,9 +15,6 @@
                         <li class="nav-item {{ Request::route()->getName() == 'employee.index' ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('employee.index') }}">Home</a>
                         </li>
-                        <li class="nav-item {{ Request::route()->getName() == 'employee.info' ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('employee.index') }}">Home</a>
-                        </li>
 {{--                        <li--}}
 {{--                            class="nav-item {{ Request::route()->getName() == 'employee.index' || Request::route()->getName() == '' ? 'active' : '' }}">--}}
 {{--                            <a class="nav-link" href="{{ route('employee.index') }}" aria-haspopup="true"--}}
